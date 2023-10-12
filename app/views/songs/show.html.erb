@@ -1,0 +1,103 @@
+<div class="intoro">
+            <p><br>あなたにおすすめの曲は…</p>
+        </div>
+<div class="song-container">
+            <div class="song">
+                <% if @songs.question1 == "option1" %>
+                <div class="main">
+                <h6 class="main__about--description-title">
+                D-technolife<br>
+                Lump of affection<br>
+                境界<br>  
+                EN<br>  
+                THUG LIFE<br>  
+                YURA YURA<br> </h6>
+                <h6 class="sub">など</h6>
+                <h6 class="main__about--description">メジャーデビュー当時の曲から最近の曲まで</h6>
+                
+                <% elsif @songs.question1 == "option2" %>
+                <div class="main">
+                <h6 class="main__about--description-title">
+                CHANCE!<br>
+                Live Everyday as if it were the last day<br>  
+                LIFEsize<br>  
+                オトノハ<br> </h6>
+                <h6 class="sub">など</h6>
+                <h6 class="main__about--description">寄り添いながらも元気づけてくれる曲が中心</h6>
+
+                <% elsif @songs.question1 == "option3" %>
+                <div class="main">
+                <h6 class="main__about--description-title">
+                マダラ蝶<br>  
+                恋いしくて<br>  
+                優しさの雫<br>  
+                体温<br> </h6>
+                <h6 class="sub">など</h6>
+                <h6 class="main__about--description">新しい出会いがあるかも</h6>
+
+                <% elsif @songs.question1 == "option4" %>
+                <div class="main">
+                <h6 class="main__about--description-title">
+                CORE PRIDE<br>
+                7th trigger<br>  
+                IMPACT<br>  
+                ナノ･セカンド<br>  
+                PRAYING RUN<br> </h6>
+                <h6 class="sub">など</h6>
+                <h6 class="main__about--description">歌詞が力強く、体の内側から力が湧いてくる曲たち</h6>
+
+                <% elsif @songs.question1 == "option5" %>
+                <div class="main">
+                <h6 class="main__about--description-title">
+                君のまま<br>  
+                終焉<br>  
+                LONE WOLF<br>  
+                MONDO PIECE<br> </h6>
+                <h6 class="sub">など</h6>
+                <h6 class="main__about--description">とにかく泣ける曲たち</h6>
+
+                <% elsif @songs.question1 == "option6" %>
+                <div class="main">
+                <h6 class="main__about--description-title">
+                ハイ!問題作<br>  
+                DIS is Teki<br>  
+                セオリーとの決別の研究+81<br>  
+                バーベル~皇帝の新しい服 album ver.~<br>  </h6>
+                <h6 class="sub">など</h6>
+                <h6 class="main__about--description">ネタに走った面白い曲が中心</h6>
+            
+                <% elsif @songs.question1 == "option7" %>
+                <div class="main">
+                <h6 class="main__about--description-title">
+                シャルマンノウラ<br>  
+                Nowhere boy<br>  
+                ハルジオン<br>  
+                ENOUGH-1<br> </h6>
+                <h6 class="sub">など</h6>
+                <h6 class="main__about--description">歩きながら聴くとさらに気分が高まる曲たち</h6>
+
+                <% elsif @songs.question1 == "option8" %>
+                <div class="main">
+                <h6 class="main__about--description-title">
+                白昼夢<br>  
+                the song<br>  
+                just Melody<br>  
+                CHANGE<br>  
+                一滴の影響<br> </h6>
+                <h6 class="sub">など</h6>
+                <h6 class="main__about--description">心を浄化してくれる曲たち</h6>
+
+                <% elsif @songs.question1 == "option9" %>
+                <div class="main">
+                <h6 class="main__about--description-title">
+                THE OVER<br>  
+                一滴の影響<br>  
+                クオリア<br>  
+                Roots<br>  
+                AFTER LIFE<br> </h6>
+                <h6 class="sub">など</h6>
+                <h6 class="main__about--description">UVERworldの歴史の中でも屈指の名曲たち</h6>
+            </div>
+        </div>
+    </div>  
+<% end %>  

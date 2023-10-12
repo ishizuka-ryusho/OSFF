@@ -1,0 +1,33 @@
+<!DOCTYPE html> <!-- この文章がHTML文章であることを伝える要素です。-->
+<html lang="ja"><!--言語の指定-->
+    <head><!--ページに表示されない情報(サイトの裏側の設定)-->
+        <meta charset="utf-8">
+        <title>UVERworld曲診断スタート</title><!--ブラウザのタブのタイトルを指定-->
+    </head>
+
+    <body>
+        <header>
+            <h1 class="headline">
+            <a>UVERworld おすすめ曲診断サイト</a>
+            </h1>
+            <ul class="nav-list">
+                <li class="nav-list-item"></li>
+            </ul>
+        </header>
+
+        <div class="first-block">
+        </div>
+
+        <div class="start">
+            <h6>診断項目を一つ選んでください</h6>
+            <div class="sindan">
+            <%= link_to "今の気持ちから", new_song_path, class: "link" %>
+
+            <%= link_to "好きな音楽のジャンルから", new_music_path, class: "link" %>
+
+            <%= link_to "好きなアーティストから", new_beat_path, class: "link" %>
+            </div>
+        </div>
+        <div class="second-block">
+        </div>
+    </body>

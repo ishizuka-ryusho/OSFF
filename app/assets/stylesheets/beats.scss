@@ -1,0 +1,28 @@
+// Place all the styles related to the beats controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.post-container {
+    margin: 50px auto;
+    width: 50%;
+    border: solid #d3def1;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #0951cd;
+  }
+  .title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  input[type="text"] {
+    font-size: 50px;
+    width: 95%;
+    height: 40px;
+  }
+  input[type="submit"] {
+    width: 200px;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }

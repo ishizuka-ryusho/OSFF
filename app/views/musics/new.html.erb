@@ -1,0 +1,26 @@
+<%= form_for(@music, class: 'form-horizontal', role: 'form') do |f| %>
+    <div class="container-sindan">
+        <div class="row">
+            <div class="col-12">
+                <p><br>Question No.2 好きな音楽のジャンルは？</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.radio_button :question2, "option1" %>ロック</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.radio_button :question2, "option2" %>ヘビメタ</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.radio_button :question2, "option3" %>EDM(エレクトロニック･ダンス･ミュージック)</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.radio_button :question2, "option4" %>アコースティック</p>
+            </div>
+        </div>
+    </div>
+    <div class="sindanbotan">
+        <%= f.submit "診断結果へ" %>
+    </div>
+    <div class="second-block">
+    </div>
+<% end %>

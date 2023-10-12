@@ -1,0 +1,39 @@
+<div class="intoro">
+            <p><br>あなたにおすすめの曲は…</p>
+        </div>
+    <div class="music-container">
+        <div class="music">
+            <% if @musics. question2 == "option1" %>
+            <div class="main">
+            <h6 class="main__about--description-title">
+            DECIDED<br>
+            REVERSI<br>
+            KINJITO<br> </h6>
+            <h6 class="sub">など</h6>
+
+            <% elsif @musics.question2 == "option2" %>
+            <div class="main">
+            <h6 class="main__about--description-title">
+            GROOVY GROOVY GROOVY<br>
+            I LOVE THE WORLD<br>
+            激動<br> </h6>
+            <h6 class="sub">など</h6>
+
+            <% elsif @musics.question2 == "option3" %>
+            <div class="main">
+            <h6 class="main__about--description-title">
+            One stroke for freedom<br>
+            Making it Drive<br>
+            HOURGLASS<br> </h6>
+            <h6 class="sub">など</h6>
+
+            <% elsif @musics.question2 == "option4" %>
+            <div class="main">
+            <h6 class="main__about--description-title"> 
+            オトノハ<br>
+            ALL ALONE<br>
+            君の好きなうた<br> </h6>
+            <h6 class="sub">など</h6>
+        </div>
+    </div>
+<% end %>  

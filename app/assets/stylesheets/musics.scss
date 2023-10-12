@@ -1,0 +1,40 @@
+// Place all the styles related to the musics controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.main__about--description-title{
+    margin: 50px;
+    width: 25%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #d3def1;
+    font-size:30px;
+    height:180px;
+    line-height:38px;
+  }
+.title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+.sub{
+      padding:20px;
+      margin-left: 40px; 
+      width: 25%;
+      font-size:25px;
+     
+     }
+  
+  input[type="text"] {
+    width: 95%;
+    height: 40px;
+  }
+  input[type="submit"] {
+    width: 200px;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+.second-block{
+background-color:black
+  }

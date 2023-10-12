@@ -1,0 +1,24 @@
+<%= form_for(@beat, class: 'form-horizontal', role: 'form') do |f| %>
+    <div class="container-sindan">
+        <div class="row">
+            <div class="col-6">
+                <p><br>Question No.3 好きなアーティストは？</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.radio_button :question3, "option1" %>BE-FIRST</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.radio_button :question3, "option2" %>SUPER BEAVER</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.radio_button :question3, "option3" %>徳川eq</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.radio_button :question3, "option4" %>AK-69</p>
+            </div>
+        </div>
+    </div>
+    <div class="sindanbotan">
+        <%= f.submit "診断結果へ" %>
+    </div>
+<% end %>

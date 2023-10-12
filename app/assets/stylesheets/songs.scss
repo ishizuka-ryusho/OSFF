@@ -1,0 +1,66 @@
+// Place all the styles related to the songs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.nav-list-item{
+ background-color: #000000;
+
+}
+.intoro{
+  font-size:20px;
+  background-color: #000000;
+  color:white;
+}
+.main__about--description-title{
+    margin-left:120px;
+    width: 40%;
+    border: solid #000000;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #000000;
+    font-size:20px ;
+    color:#FFFFFF
+    
+  }
+.main__about--description{
+  margin-left:150px;
+  width: 35%;
+;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #FFFFFF;
+  font-size:25px ;
+
+
+
+  }
+.sub{
+ padding:0%;
+ margin-left: 550px; 
+ width: 25%;
+ font-size:25px;
+
+}
+.sindanbotan{
+background-color:black;
+
+}
+
+.title {
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+input[type="text"] {
+    font-size:100px;
+    width: 95%;
+    height: 40px;
+  }
+  input[type="submit"] {
+    width: px;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  

@@ -1,0 +1,44 @@
+<%= form_for(@song, class: 'form-horizontal', role: 'form') do |f| %>
+    <div class="container-sindan">
+        <div class="row">
+        </div>
+            <div class="col-12">
+                <p><br>Question No.1 今の気持ちは？</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.radio_button :question1, "option1" %>世の中は生きづらい</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.radio_button :question1, "option2" %>目標はあるけど一歩が踏み出せない</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.radio_button :question1, "option3" %>恋人と別れた辛さから立ち直りたい</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.radio_button :question1, "option4" %>自分をとにかく奮い立たせたい</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.radio_button :question1, "option5" %>卒業シーズンにピッタリの曲が聴きたい</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.radio_button :question1, "option6" %>面白い曲、クスッと笑える曲が聴きたい</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.radio_button :question1, "option7" %>散歩に合う曲が聴きたい</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.radio_button :question1, "option8" %>過去の挫折から立ち直りたい</p>
+            </div>
+            <div class="col-6">
+                <p><%= f.radio_button :question1, "option9" %>とにかく感動できる曲が聴きたい</p>
+            </div>
+        </div>
+    </div>
+    <div class="sindanbotan">
+    <%= f.submit "診断結果へ" %>
+    <div class="second-block">
+    </div>
+
+    </div>
+<% end %>
+            
