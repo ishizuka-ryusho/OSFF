@@ -2,13 +2,17 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-.post-container {
-    margin: 50px auto;
-    width: 50%;
-    border: solid #d3def1;
-    border-radius: 10px;
-    text-align: center;
-    background-color: #0951cd;
+
+.beat{
+    background-color:black;
+    color:white;
+    font-size:25px;
+  }
+  .answer{font-size:25px;
+    text-align:left;
+    background-color: black;
+    padding-left: 20%;
+
   }
   .title {
     font-size: 50px;
@@ -27,5 +31,6 @@
     margin-bottom: 30px;
   }
   .second-block{
-    background-color:black
+    background-color:black;
+    height:100%;
     }

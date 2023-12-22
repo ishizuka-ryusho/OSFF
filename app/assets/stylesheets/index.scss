@@ -7,9 +7,9 @@
   }
 .link{
   color:white;
-  border: 2px solid white;
   font-size:30px;
   justify-content:center;
+  font-family:sans-serif;
 
 }
 
@@ -41,16 +41,16 @@
     color:white;
   }
   
-  .second-block {
+.second-block {
     height: 250px;
     background-color:#000000;
   }
-  .main-box {
+.main-box {
     margin: 5px 0;
     display: flex;
     justify-content: space-between;
   }
-  .time {
+.time {
     display: flex;
     justify-content: flex-end;
   }

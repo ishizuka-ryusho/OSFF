@@ -1,38 +1,43 @@
 <%= form_for(@song, class: 'form-horizontal', role: 'form') do |f| %>
     <div class="container-sindan">
         <div class="row">
-        </div>
             <div class="col-12">
                 <p><br>Question No.1 今の気持ちは？</p>
             </div>
-            <div class="col-6">
-                <p><%= f.radio_button :question1, "option1" %>世の中は生きづらい</p>
+            <div class="answer">
+            <div class="button">
             </div>
-            <div class="col-6">
-                <p><%= f.radio_button :question1, "option2" %>目標はあるけど一歩が踏み出せない</p>
-            </div>
-            <div class="col-6">
-                <p><%= f.radio_button :question1, "option3" %>恋人と別れた辛さから立ち直りたい</p>
-            </div>
-            <div class="col-6">
-                <p><%= f.radio_button :question1, "option4" %>自分をとにかく奮い立たせたい</p>
-            </div>
-            <div class="col-6">
-                <p><%= f.radio_button :question1, "option5" %>卒業シーズンにピッタリの曲が聴きたい</p>
-            </div>
-            <div class="col-6">
-                <p><%= f.radio_button :question1, "option6" %>面白い曲、クスッと笑える曲が聴きたい</p>
-            </div>
-            <div class="col-6">
-                <p><%= f.radio_button :question1, "option7" %>散歩に合う曲が聴きたい</p>
-            </div>
-            <div class="col-6">
-                <p><%= f.radio_button :question1, "option8" %>過去の挫折から立ち直りたい</p>
-            </div>
-            <div class="col-6">
-                <p><%= f.radio_button :question1, "option9" %>とにかく感動できる曲が聴きたい</p>
+                <div class="col-6">
+                    <p><%= f.radio_button :question1, "option1" %><label id="song_question1_option1" for="song_question1_option1">世の中は生きづらい</label></p>
+                </div>
+                <div class="col-6">
+                    <p><%= f.radio_button :question1, "option2" %><label id="song_question1_option2" for="song_question1_option2">目標はあるけど一歩が踏み出せない</label></p>
+                </div>
+                <div class="col-6">
+                    <p><%= f.radio_button :question1, "option3" %><label id="song_question1_option3" for="song_question1_option3">恋人と別れた辛さから立ち直りたい</label></p>
+                </div>
+                <div class="col-6">
+                    <p><%= f.radio_button :question1, "option4" %><label id="song_question1_option4" for="song_question1_option4">自分をとにかく奮い立たせたい</label></p>
+                </div>
+                <div class="col-6">
+                    <p><%= f.radio_button :question1, "option5" %><label id="song_question1_option5" for="song_question1_option5">卒業シーズンにピッタリの曲が聴きたい</label></p>
+                </div>
+                <div class="col-6">
+                    <p><%= f.radio_button :question1, "option6" %><label id="song_question1_option6" for="song_question1_option6">面白い曲、クスッと笑える曲が聴きたい</label></p>
+                </div>
+                <div class="col-6">
+                    <p><%= f.radio_button :question1, "option7" %><label id="song_question1_option7" for="song_question1_option7">散歩に合う曲が聴きたい</label></p>
+                </div>
+                <div class="col-6">
+                    <p><%= f.radio_button :question1, "option8" %><label id="song_question1_option8" for="song_question1_option8">過去の挫折から立ち直りたい</p>
+                </div>
+                <div class="col-6">
+                    <p><%= f.radio_button :question1, "option9" %><label id="song_question1_option9" for="song_question1_option9">とにかく感動できる曲が聴きたい</p>
+                </div>
             </div>
         </div>
+    </div>
+    <div class="full-img2">
     </div>
     <div class="sindanbotan">
     <%= f.submit "診断結果へ" %>

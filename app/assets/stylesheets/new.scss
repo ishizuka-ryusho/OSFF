@@ -1,10 +1,45 @@
-.container-sindan {
+
+.col-6:hover, 
+input[type=radio]:checked ~ #song_question1_option1, 
+input[type=radio]:checked ~ #song_question1_option2,
+input[type=radio]:checked ~ #song_question1_option3,
+input[type=radio]:checked ~ #song_question1_option4,
+input[type=radio]:checked ~ #song_question1_option5,
+input[type=radio]:checked ~ #song_question1_option6,
+input[type=radio]:checked ~ #song_question1_option7,
+input[type=radio]:checked ~ #song_question1_option8,
+input[type=radio]:checked ~ #song_question1_option9,
+input[type=radio]:checked ~ #music_question2_option1,
+input[type=radio]:checked ~ #music_question2_option2,
+input[type=radio]:checked ~ #music_question2_option3,
+input[type=radio]:checked ~ #music_question2_option4,
+input[type=radio]:checked ~ #beat_question3_option1,
+input[type=radio]:checked ~ #beat_question3_option2,
+input[type=radio]:checked ~ #beat_question3_option3,
+input[type=radio]:checked ~ #beat_question3_option4,
+input[type=radio]:checked ~ #beat_question3_option5,
+input[type=radio]:checked ~ #beat_question3_option6,
+input[type=radio]:checked ~ #beat_question3_option7
+{
+  color:black;
+  background-color: white;
+  border:3px solid white;
+  font:oblique;
+}
+.col-12 {
     font-size:25px;
-    text-align: left;
+    text-align:left;
+    padding-left: 20%;
     background-color: black;
     color:white;
 }
-  .title {
+.full-img2{
+      background-image: url(https://mirai-stereo.net/wp-content/uploads/2013/12/uverworld-nano-second-pv.jpg); /* 画像のURLを指定       */
+      background-size:cover;        /* 画像のサイズを指定    */
+      width: 100%;                              /* 横幅のサイズを指定    */
+      height:400px;                            /* 縦幅のサイズを指定    */
+    }
+.title {
     font-size: 60px;
     font-weight: bold;
     margin-bottom: 50px;
