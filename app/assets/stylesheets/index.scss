@@ -14,10 +14,11 @@
 }
 
 .full-img{
-    background-image: url(https://高画質ジャケット画像.com/blog/wp-content/uploads/2016/12/uverworld.jpg); /* 画像のURLを指定       */
+    background-image: url(https://aop-emtg-jp.s3-ap-northeast-1.amazonaws.com/prod/public/uverworld/contents/information/be427a13ed232b24cd45811504227fe8.JPG); /* 画像のURLを指定       */
     background-size:cover;                 /* 画像のサイズを指定    */
-    width: 100%;                              /* 横幅のサイズを指定    */
-    height:400px;                            /* 縦幅のサイズを指定    */
+    width: 120%;                              /* 横幅のサイズを指定    */
+    height:1000px;                            /* 縦幅のサイズを指定    */
+    object-fit: cover;
 
 }
 

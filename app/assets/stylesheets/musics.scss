@@ -17,7 +17,8 @@
     background-image: url(https://www.thefirsttimes.jp/admin/wp-content/uploads/9000/08/20210820-ys-182401-1400x936.jpg); /* 画像のURLを指定       */
     background-size:cover;                 /* 画像のサイズを指定    */
     width: 100%;                              /* 横幅のサイズを指定    */
-    height:400px;                            /* 縦幅のサイズを指定    */
+    height:600px;                            /* 縦幅のサイズを指定    */
+    object-fit: cover;
   }
   
 .answer{

@@ -8,13 +8,20 @@
     color:white;
     font-size:25px;
   }
-  .answer{font-size:25px;
+.answer{font-size:25px;
     text-align:left;
     background-color: black;
     padding-left: 20%;
 
   }
-  .title {
+.full-img4{
+    background-image: url(https://skream.jp/news/2021/11/21/images/UVERworld_Aphoto.jpg); /* 画像のURLを指定       */
+    background-size:cover;                 /* 画像のサイズを指定    */
+    width: 100%;                              /* 横幅のサイズを指定    */
+    height:500px;                            /* 縦幅のサイズを指定    */
+    
+  }
+.title {
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 50px;
